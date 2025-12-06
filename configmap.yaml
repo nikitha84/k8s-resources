@@ -1,0 +1,9 @@
+apiVersion: v1
+Kind: Pod
+metadata:
+ name: configmap
+data: 
+  course: "Devops"
+  trainer: "Susmi"
+  duration: "10hrs"
+  
