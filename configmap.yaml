@@ -1,9 +1,9 @@
 apiVersion: v1
-Kind: Pod
+kind: ConfigMap
 metadata:
- name: configmap
+ name: config-pod
 data: 
   course: "Devops"
   trainer: "Susmi"
   duration: "10hrs"
-  
+
