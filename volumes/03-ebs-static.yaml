@@ -43,4 +43,4 @@ spec:
   volumes:
   - name: nginx-html #volume name
     persistentVolumeClaim:
-      claimName: ebs-static-claim #take pv volume
+      claimName: ebs-static #take pv volume
